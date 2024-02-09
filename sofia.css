@@ -2,6 +2,15 @@
 	color: red;
 }
 
+.image {
+    width: 600px;
+}
+
+.historia {
+    font-size: 25px;
+    padding: 10px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -41,19 +50,10 @@ h2 {
 }
 
 .driver-info {
-    display: none;
-    margin-top: 10px;
-}
-
-input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-input[type="checkbox"]:checked + label + .driver-info {
     display: block;
 }
 
-footer {
+.rodape {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
