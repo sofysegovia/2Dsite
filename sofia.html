@@ -6,47 +6,66 @@
         <title>Fórmula 1</title>
         <link rel="stylesheet" href="style.css">
     </head>
-  <body>
+
+    <body>
     <header>
         <h1 class="titulo">Fórmula 1 - Pilotos</h1>
     </header>
+    <!--isso aqui é o cabeçalho (header)-->
 
     <div>
-        <img src="https://classic.exame.com/wp-content/uploads/2023/11/AbuDhabi.jpg?quality=70&strip=info&w=1024">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/FIA_F1_Austria_2022_Nr._16_Leclerc.jpg">
-        <img src="https://media.piodeportes.com/uploads/sporting-news-2022-photo-with-watermark-022c4b8a-ab74-4c34-87ac-da2011324ec9-1.png">
+        <a href="#sososegovia"><img class="image" href="sososegovia" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/04/Senna-e1682508421179.png?w=1173&h=659&crop=1"></a>
+        <img class="image" src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3127644:1629936502/Michael-Schumacher-1024x715_Easy-Resize.com.jpg?f=16x9&h=574&w=1020&$p$f$h$w=598884c">
+        <img class="image" src="https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2021/11/000-9rn47f-1.jpg">
     </div>
-
-
+    <!--aqui tem as fotos com 600 pixeis e uma do lado da outra-->
+    <br>    
 
     <section class="content">
         <h2>Escolha seus pilotos favoritos:</h2>
         <div class="drivers">
             <div class="driver">
                 <input type="checkbox" id="hamilton" name="driver" value="Lewis Hamilton">
+                <!--o input foi criado pra fazer a checkbox-->
                 <label for="hamilton">Lewis Hamilton</label>
+                <!--nome da checkbox-->
                 <div class="driver-info">
                     <p><strong>Equipe:</strong> Mercedes</p>
                     <p><strong>Nacionalidade:</strong> Britânico</p>
                     <p><strong>Campeonatos Mundiais:</strong> 7</p>
                 </div>
+                <!--tabela que aparece quando aperta na checkbox-->
             </div>
-
+  
             <div class="driver">
                 <input type="checkbox" id="verstappen" name="driver" value="Max Verstappen">
+                <!--o input foi criado pra fazer a checkbox-->
                 <label for="verstappen">Max Verstappen</label>
+                <!--nome da checkbox-->
                 <div class="driver-info">
                     <p><strong>Equipe:</strong> Red Bull Racing</p>
                     <p><strong>Nacionalidade:</strong> Holandês</p>
                     <p><strong>Campeonatos Mundiais:</strong> 0</p>
                 </div>
+                <!--tabela que aparece quando aperta na checkbox-->
             </div>
 
-            <!-- Adicione mais pilotos conforme necessário -->
         </div>
     </section>
+    <hr>
+    <p class="historia">"Oficialmente, <u>a Fórmula 1 foi criada em 1950 pela Federação Internacional de Automobilismo (FIA)</u>. No entanto, a história da categoria remonta ao final do século XIX, quando as primeiras corridas de carros foram disputadas na Europa. Como na época não existiam circuitos, as corridas aconteciam em estradas. Alguns historiadores apontam que uma corrida entre Paris e Bordeaux, na França, em 1895, tenha sido o marco inicial da F1. Essa corrida durou 48 horas e teve um percurso de 1200 quilômetros.
+        Há quem considere o ano de <b>1901</b> como o início da Fórmula 1, pois nesse ano foi disputada a primeira corrida com o nome de Grande Prêmio (GP). Na ocasião, a cidade de Le Mans sediou o Grande Prêmio da França. Atualmente, Le Mans não recebe a Fórmula 1, mas é considerada um dos mais importantes circuitos do mundo.
+        Entre 1901 e 1949, vários GPs foram disputados ao redor da Europa, em países como França, Itália, Bélgica, Inglaterra, Alemanha, Mônaco e Espanha. Os GPs só não aconteceram durante a Primeira Guerra Mundial e a Segunda. No decorrer das guerras, os pilotos participaram de corridas nos Estados Unidos, como em Indianápolis, outro grande circuito do automobilismo.
+        Depois da Segunda Guerra Mundial, a FIA decidiu elaborar um campeonato reunindo os principais Grandes Prêmios da Europa e deu a ele o nome de Fórmula 1. A nova competição reuniria as maiores fabricantes de carros do continente, como Alfa Romeo, Ferrari, Maserati e Mercedes."
+    </p>
 
-    <footer>
+    <ol>
+        <li class="historia"><footer id="sososegovia">Ayrton Senna</footer></li></a>
+        <li class="historia">Michael Schumacher</li>
+        <li class="historia">Lewis Hamilton</li>
+    </ol>
+
+    <footer class="rodape">
         <p>&copy; 2024 Fórmula 1. Todos os direitos reservados.</p>
     </footer>
 
