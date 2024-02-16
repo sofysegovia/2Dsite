@@ -1,15 +1,18 @@
 .titulo {
 	color: red;
 }
+/*responsável por mudar a cor do título do cabeçalho*/
 
 .image {
     width: 600px;
 }
+/*responsável por mudar o tamanho da imagem*/
 
 .historia {
     font-size: 25px;
     padding: 10px;
 }
+/*fonte e espaçamento das letras do parágrafo*/
 
 body {
     font-family: Arial, sans-serif;
@@ -17,6 +20,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+/*responsável por mudar plano de fundo do site, mudando o tamanho, espaçamento e cor*/
 
 header {
     background-color: #333;
@@ -24,12 +28,14 @@ header {
     padding: 20px 0;
     text-align: center;
 }
+/*responsável por mudar a cor do fundo, das letras, do espaçamento e do posicionamento do cabeçalho. o text-align deixa o texto no meio.*/
 
 .content {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
 }
+/*
 
 h2 {
     color: #333;
