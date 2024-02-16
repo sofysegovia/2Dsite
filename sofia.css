@@ -35,17 +35,19 @@ header {
     margin: 20px auto;
     padding: 0 20px;
 }
-/*
+/*é o conteúdo, ele muda o tamanho máximo que pode atingir, a margem e o espaçamento*/
 
 h2 {
     color: #333;
 }
+/*muda a cor do h2*/
 
 .drivers {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
 }
+/*
 
 .driver {
     background-color: #fff;
@@ -65,3 +67,4 @@ h2 {
     padding: 10px 0;
     text-align: center;
 }
+/*muda o rodapé no fim do site, mudando a cor do fundo, a cor da letra, espaçamento e o posicionament*/
